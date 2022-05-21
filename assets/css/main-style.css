@@ -1,0 +1,85 @@
+/* MAIN */
+main {
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    height: 70vh;
+}
+
+/* perfil-header */
+
+#perfil-header{
+    align-items: center;
+    display: flex;
+    height: 40vh;
+    justify-content: space-around;
+    width: 70%;
+    margin-bottom: 1em;
+}
+
+#perfil-header .texto-apresentacao{
+    padding-right: 50px;
+    width: 70%;
+    min-height:30vh;
+}
+
+#perfil-header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 112px;
+}
+
+#perfil-header h1 span {
+    color: gray;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    letter-spacing: -2px;
+}
+
+#perfil-header h2 {
+    font-family: 'Helvetica', Sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 24px 0 ;
+    text-align: justify;
+}
+
+#perfil-header .perfil-imagem{
+    width: 30%;
+    margin: 20px;
+}
+
+.perfil-imagem img{
+    width: 100%;
+    border: 5px solid #929292;
+    border-radius: 50%;
+} 
+
+
+
+/* hard-skills */
+
+#hard-skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    border-top: 1px dotted black;
+    min-height: 20vh;
+    margin-top: 2em;    
+}
+
+#hard-skills img{
+    width: 50px;
+    height: 50px;
+}
+
+#hard-skills .texto-hardskills{
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 20px;
+}

@@ -1,25 +1,21 @@
 /* 320px MINIMUM */
 @media (min-width: 320px) and (max-width: 600px) {
-    #perfil-container {
+    #perfil-header {
         width: 70%;
     }
 
-    .texto {
+    #perfil-header h1 {
+        text-align: center;
         margin-right: unset;
+        
     }
 
-    h1 {
-        font-size: 60px;
-    }
-
-    span{
-        font-size: 84px;
-    }
 
     #contato {
         font-size: 24px;
         line-height: normal;
     }
+
 }
 
 @media (min-width: 320px) and (max-width: 1025px) { 
@@ -32,26 +28,26 @@
         height: unset;
     }
 
-    h1 {
+    #perfil-header h1 {
         line-height: unset;
     }
     
     footer {
-        height: 200px;
+        height: 100px;
         flex-direction: column;
         padding-left: 16px;
     }
     
-    .imagem {
+    #perfil-header .perfil-imagem {
         width: 100%;
     }
     
-    #perfil-container {
-        flex-direction: column;
+    #perfil-header {
+        flex-direction: column-reverse;
         height: max-content;
     }
 
-    .texto {
+    #perfil-header .texto-apresentacao {
         width: 100%;
     }
 }
@@ -62,18 +58,22 @@
         width: auto;
     }
     
-    #contato {
+    #entre-contato {
+        font-size: 40px;
+        line-height: 45px;
         margin-bottom: 68px;
     }
 
+
+
     #infos {
-        align-items: unset;
+        align-items: center;
         display: flex;
         flex-direction: column;
     }
 
     #email {
-        margin-bottom: 20px
+        margin-bottom: 20px;
     }
 
     #botao-topo {
@@ -83,32 +83,38 @@
 
 /* 600px MINIMUM */
 @media (min-width: 600px) and (max-width: 1025px) {
-    #perfil-container {
+
+    #perfil-header {
+        flex-direction: column-reverse;
         width: calc(100% - 32px);
     }
 
-    .texto {
+    #perfil-header h1{
+        text-align: center;
+    }
+
+    #perfil-header h2 {
         margin-right: unset;
     }
 }
 
 /* 1025px MINIMUM */
 @media (min-width: 1025px) and (max-width: 1281px) {
-    #perfil-container {
+    #perfil-header {
         width: 90%;
     }
 
-    .texto {
+    #perfil-header .texto-apresentacao {
         margin-right: 74px;
     }
 }
 
 @media (min-width: 1281px) and (max-width: 1500px) {
-    #perfil-container {
+    #perfil-header {
         width: 90%;
     }
 
-    .texto {
+    #perfil-header .texto-apresentacao {
         margin-right: unset;
     }
 }

@@ -4,65 +4,92 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
 
+        <link type="image/png" sizes="150x150" rel="icon" href="./assets/icons/jacivaldo-carvalho.ico">
         <title>Jacivaldo Carvalho</title>
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">   
         
-        <link href="css/style.css" rel="stylesheet" type="text/css" />
-        <link href="css/media-queries.css" rel="stylesheet" type="text/css" />
+        <link href="/assets/css/style.css" rel="stylesheet" type="text/css" />
+        <link href="/assets/css/nav-style.css" rel="stylesheet" type="text/css" />
+        <link href="/assets/css/main-style.css" rel="stylesheet" type="text/css" />
+        <link href="/assets/css/footer-style.css" rel="stylesheet" type="text/css" />
+
+        <link href="/assets/css/media-queries.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
         <nav>
             <ol>
-                <li>Jacivaldo Carvalho</li>
+                <li><a href="#" target="_blank">
+                    <img src="./assets/img/jacivaldo-carvalho.png" alt="Avatar Jacivaldo">
+                </a></li>
+
+                <li><a href="https://www.linkedin.com/in/jacivaldocarvalho/" target="_blank">
+                    <img src="./assets/icons/linkdin.png" alt="Logo LinkdIn">
+                </a></li>
+                
+                <li><a href="https://github.com/jacivaldocarvalho" target="_blank">
+                    <img src="./assets/icons/github.png" alt="Logo Github">
+                </a></li>
             </ol>
         </nav>
         <main>
-            <!-- main: principal. tag semântica que indica onde guardamos informações principais do site -->
-
-            <header id="perfil-container">
-                <div  class="texto">
-                    <h1> <span>Jacivaldo</span> Carvalho</h1>
-                    <h2>Formando em Engenharia de Telecomunicações (UFPA). 
-                        Sou analista de suporte e desenvolvedor. <br>
-                        <br>
-                        Atualmente venho me aprofundando Fullstack com HTML5, CSS3, JavaScript, React, Python e Mysql.
+            <div id="perfil-header">
+                <div  class="texto-apresentacao">
+                    <h1> <span>Seja</span> Bem vindo!</h1>
+                    <h2> Sou analista de suporte e desenvolvedor. Atualmente, venho me aprofundando em desenvolvimento Fullstack com HTML5, CSS3, JavaScript, React, Python e Mysql.
                         E em Cloud com AWS, Terraform e Ansible.
                     </h2>
                 </div>
 
-                <div class="imagem">
-                    <img src="assets/jacivaldo-carvalho.jpg" alt="Imagem do Jacivaldo Carvalho">
+                <div class="perfil-imagem">
+                    <img src="assets/img/jacivaldo-carvalho.jpg" alt="Imagem do Jacivaldo Carvalho">
                 </div>
-            </header>
+            </div>
 
+            <div id="hard-skills">
+                
+                <div class="texto-hardskills"><h3>Hard Skills</h3></div>
+
+                <div class="img-hardskills">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> 
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg" />    
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
+
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/debian/debian-original.svg" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />  
+                </div>
+            </div>
         </main>
         <footer>
-            <div id="contato">
-                <h3>vamos trabalhar juntos?</h3>
-                <h4>envie uma mensagem.</h4>
+            <div id="entre-contato">
+                <h3>Vamos vencer juntos?</h3>
+                <h4>entre em contato.</h4>
             </div>
             <div id="infos">
                 <div id="email">
-                    <a href="mailto:jacivaldocarvalho@gmail.com">jacivaldocarvalho@gmail.com</a>
+                    <a href="mailto:jacivaldocarvalho@gmail.com" target="_blank">E-mail</a>
                     <img src="./assets/icons/seta.png" alt="Ícone de seta">
                 </div>
-                <div id="redes-sociais">
-                    <div>
-                        <!-- <a href="#"><img src="./assets/icons/behance.png" alt="Logo Behance"></a> -->
-                        <!--<a href="#"><img src="./assets/icons/facebook.png" alt="Logo Facebook"></a>-->
-                        <!--<a href="#"><img src="./assets/icons/instagram.png" alt="Logo Instagram"></a>-->
-                        <a href="https://github.com/jacivaldocarvalho"><img src="./assets/icons/github.png" alt="Logo Github"></a>
-          
-                    </div>
+
+                <h1>Copyright &copy 2022 versão 1.5</h1>
+                
+                <div id="whatsaap">
+                    <a href="https://api.whatsapp.com/send/?phone=5591983476145" target="_blank">Whatsaap</a>
+                    <img src="./assets/icons/seta.png" alt="Ícone de seta">
                 </div>
-                <h3 class="cidade">Belém • Brasil</h3>
+
             </div>
         </footer>
+
         <button id="botao-topo" onclick="voltarParaTopo()">
-            <img src="./assets/icons/up-arrow.png" alt="Símbolo de seta apontando para cima">
+            <img src="./assets/icons/up-arrow.png" alt="Seta para cima">
         </button>
         <script src="script.js" defer></script>
     </body>

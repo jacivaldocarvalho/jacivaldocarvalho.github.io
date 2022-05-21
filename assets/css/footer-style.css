@@ -1,0 +1,116 @@
+/* FOOTER */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+#entre-contato {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 72px;
+    line-height: 79px;
+    margin-bottom: 172px;
+    width: 70%;
+}
+
+#entre-contato h3 {
+    margin: 88px 0 0;
+}
+
+#entre-contato h4 {
+    color: #929292;
+    margin: 16px 0 0;
+}
+
+#infos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    padding-bottom: 1em;
+}
+
+#infos h1{
+    font-size: smaller;
+}
+
+/* email */
+
+#email {
+    display: flex;
+}
+
+
+#email:hover {
+    border-bottom: 1px solid;
+    font-style: italic;
+}
+
+#email a:hover {
+    text-decoration: none;
+}
+
+footer div a {
+    color: #fff;
+    margin: 0 5px;
+    text-decoration: none;
+} 
+
+
+footer div a:hover {
+    text-decoration: underline;
+} 
+
+#botao-topo {
+    background: none;
+    border: none;
+    bottom: 20px; 
+    cursor: pointer;
+    display: none;
+    outline: none;
+    padding: 15px;
+    position: fixed; 
+    right: 30px; 
+    z-index: 99;
+
+}
+
+/* Whatsaap*/
+
+#whatsaap {
+    display: flex;
+}
+
+
+#whatsaap:hover {
+    border-bottom: 1px solid;
+    font-style: italic;
+}
+
+#whatsaap a:hover {
+    text-decoration: none;
+}
+
+#botao-topo {
+    background: none;
+    border: none;
+    bottom: 20px; 
+    cursor: pointer;
+    display: none;
+    outline: none;
+    padding: 15px;
+    position: fixed; 
+    right: 30px; 
+    z-index: 99;
+
+}
+
+#botao-topo img {
+    height: 40px;
+    width: 40px;
+}
