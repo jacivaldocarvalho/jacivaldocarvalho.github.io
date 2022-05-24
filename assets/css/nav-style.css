@@ -1,6 +1,10 @@
 /* border: 1px solid black; */
 nav {
-    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: #f2f2f2;
+    height: 80px;
     width: 100%;
 }
 
@@ -8,11 +12,9 @@ nav ol {
     display: flex;
     align-items: center;
     justify-content:flex-end;
-    height: 86px;
     list-style: none;
     padding-right: 1em;
     margin: 0;
-    border-bottom: 2px solid #f2f2f2;
 }
 
 nav ol li {
